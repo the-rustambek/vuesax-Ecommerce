@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -6,37 +6,39 @@
 
 }
 
-ul, ol{
-list-style: none;
+ul,
+ol {
+    list-style: none;
 }
 
-.container-fluid{
+.container-fluid {
     width: 1365px;
-    margin:  auto;
+    margin: auto;
 }
 
 
-.aside{
+.aside {
     width: 20%;
     background-color: #0F1642;
     color: white;
-    padding: 20px;
-    
+    padding: 25px;
+
 }
-.main{
+
+.main {
     width: 80%;
 }
 
-.aside-title{
+.aside-title {
     font-style: normal;
-font-weight: 600;
-font-size: 22px;
-line-height: 27px;
-color: #7E72F2;
-margin-left: 10px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #7E72F2;
+    margin-left: 10px;
 }
 
-.aside-link{
+.aside-link {
     display: flex;
     font-style: normal;
     font-weight: 500;
@@ -45,70 +47,75 @@ margin-left: 10px;
     color: #FFFFFF;
     text-decoration: none;
 }
-.right-dropdown{
+
+.right-dropdown {
     margin-top: 30px;
 }
-.aside-item{
-    margin-top:12px;
-    
+
+.aside-item {
+    margin-top: 12px;
+
 }
-.aside-list{
+
+.aside-list {
     display: none;
 }
 
-.aside-blok{
-    margin-top: 25px;
+.aside-blok {
+    margin-top: 20px;
 }
 
 
-.aside-list--title{
+.aside-list--title {
     margin-left: 15px;
 }
 
-.aside-header , .aside-logo {
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
-.aside-blok{
+.aside-header,
+.aside-logo {
     display: flex;
-}
-.apps-blok{
-    display: flex;
-}
-.aside-link--active{
-    display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
 
-.apps-title{
-    margin-top: 25px;
-    margin-bottom: 20px;
-    font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 36px;
-/* identical to box height, or 257% */
-
-
-color: #999999;
-
+.aside-blok {
+    display: flex;
 }
 
-.apps-text{
+.apps-blok {
+    display: flex;
+}
+
+.aside-link--active, .element-link--active {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apps-title {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    color: #999999;
+}
+.aside-text {
     margin-left: 20px;
     font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 40px;
-/* or 267% */
-
-
-color: #FFFFFF;
-
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 40px;
+    color: #FFFFFF;
 }
-.apps-link {
+
+.apps-link , .element-link, .forms-link{
     text-decoration: none;
     display: flex;
+}
+
+.aside-blok--element{
+    margin-top: 0px;
+}
+.right-dropdown--element{
+    margin-bottom: 20px;
 }
