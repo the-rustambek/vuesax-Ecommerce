@@ -255,9 +255,11 @@ ol {
     display: flex;
 
 }
-
+.blok-box{
+    width: 28%;
+}
 .blok-about {
-    width: 35%;
+    
     margin-top: 30px;
     background-color: #0F1642;
     padding: 20px;
@@ -266,7 +268,7 @@ ol {
 }
 
 .blok-content {
-    width: 65%;
+    width: 72%;
 }
 
 .blok-circle {
@@ -277,6 +279,14 @@ ol {
     border: 1px solid white;
 
 
+}
+.blok-box--title{
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+margin-top: 25px;
 }
 
 .blok-btn {
@@ -379,4 +389,42 @@ ol {
     background-color: #0F1642; 
     border: none;
     color:#0F1642;
+}
+.blok-btn .blok-input{
+    margin-top: 3px;
+}
+.blok-button .blok-input{
+    margin-right: 15px;
+    margin-bottom: 2px;
+}
+
+.r-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.r-blok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.r-list .blok-title{
+    margin-bottom: 25px;
+    margin-top: 45px;
+}
+.r-item{
+    margin:10px 0px;
+}
+.r-text{
+    color:#7C8BA7;
+    margin-left: 4px;
+}
+.r-list div p{
+    color: #7C8BA7;
+}
+
+.blok-filter{
+    background: #6F64F8;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 8px;
 }
