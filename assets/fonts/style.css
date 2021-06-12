@@ -12,8 +12,10 @@ ol {
 }
 
 .container-fluid {
-    width: 1365px;
+    width: 1348px;
     margin: auto;
+
+    display: flex;
 }
 
 
@@ -27,6 +29,9 @@ ol {
 
 .main {
     width: 80%;
+    background-color: #2B3253;
+    padding: 20px;
+    padding-right: 35px
 }
 
 .aside-title {
@@ -85,7 +90,8 @@ ol {
     display: flex;
 }
 
-.aside-link--active, .element-link--active {
+.aside-link--active,
+.element-link--active {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -99,23 +105,93 @@ ol {
     line-height: 36px;
     color: #999999;
 }
+
 .aside-text {
     margin-left: 20px;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 40px;
     color: #FFFFFF;
 }
 
-.apps-link , .element-link, .forms-link{
+.apps-link,
+.element-link,
+.forms-link {
     text-decoration: none;
     display: flex;
 }
 
-.aside-blok--element{
+.aside-blok--element {
     margin-top: 0px;
 }
-.right-dropdown--element{
+
+.right-dropdown--element {
     margin-bottom: 20px;
 }
+
+.navbar-logo, .navbar-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    background-color: #0F1642;
+    border-radius: 10px;
+    padding: 8px;
+    
+    
+}
+.navbar-icon{
+width: 16px;
+margin-left: 8px;
+}
+.navbar-item{
+    margin-left: 10px;
+    color: white;
+}
+
+.navbar-btn{
+    background-color: #0F1642;
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height, or 121% */
+    
+    
+    color: #FFFFFF;
+    
+}
+.navbar-notification, .navbar-search{
+    border: none;
+    background-color: #0F1642;
+    margin:0px 8px;
+}
+.navbar-search{
+    margin-right: 15px;
+}
+
+.navbar-text{
+    font-style: normal;
+font-weight: 300;
+font-size: 11px;
+line-height: 13px;
+color: #FFFFFF;
+}
+
+.navbar-name{
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height, or 121% */
+
+
+color: #FFFFFF;
+
+}
+
+.content
