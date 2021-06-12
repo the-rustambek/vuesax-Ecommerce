@@ -206,6 +206,7 @@ color: #FFFFFF;
     border: none;
 margin:0px 15px;
     color: white;
+    text-decoration: none;
 }
 .content button{
     
@@ -217,4 +218,20 @@ margin:0px 15px;
 .content span{
     border: 1px solid #979797;
     width: 2px;
+}
+
+.content button{
+    color: white;
+}
+.content-link--active{
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #7E72F2;
+}
+.navbar-link{
+    background-color: #0F1642;
+    border: none;
+    color: white;
 }
