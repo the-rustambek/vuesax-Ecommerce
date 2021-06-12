@@ -2,13 +2,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
-
 }
-
 ul,
 ol {
     list-style: none;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container-fluid {
@@ -427,4 +428,70 @@ margin-top: 25px;
     background: #6F64F8;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
     border-radius: 8px;
+    padding:15px;
+    width: 285px;
+    border: 2px solid #fff;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.blok-filter:hover{
+    color:#6F64F8;
+    border: 2px solid #6F64F8;
+    background-color: white;
+    transition: 0.3s;
+    font-weight:700;
+}
+
+.b-list, .b-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.b-item select{
+    padding:8px;
+    border: none;
+    background: #FFFFFF;
+box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+border-radius: 8px;
+padding-right: 20px;
+}
+.b-item{
+    margin:0px 10px;
+}
+.b-item button{
+    padding:8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+border-radius: 8px;
+border: none;
+}
+.content-settings button{
+padding: 5px;
+background: #7E72F2;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+}
+.b-list{
+    margin-top: 10px;
+}
+.blok-inputs{
+    padding: 13px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 10px;
+    color:black;
+    width: 727px;
+    position: relative;
+    background-color: #0F1642;
+}
+.blok-form{
+    margin-top: 30px;
+}
+.blok-search{
+    position: absolute;
+    top:39%;
+    transform: translate(-50%);
+    left: 94%;
 }
