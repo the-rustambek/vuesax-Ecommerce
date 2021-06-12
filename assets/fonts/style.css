@@ -487,11 +487,16 @@ height: 40px;
     background-color: #0F1642;
 }
 .blok-form{
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 .blok-search{
     position: absolute;
     top:39%;
     transform: translate(-50%);
-    left: 94%;
+    left: 96%;
+}
+
+.blok-info{
+    padding: 20px;
+    padding-top: 30px;
 }
