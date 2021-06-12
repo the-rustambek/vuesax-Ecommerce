@@ -130,29 +130,32 @@ ol {
     margin-bottom: 20px;
 }
 
-.navbar-logo, .navbar-list{
+.navbar-logo,
+.navbar-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navbar{
+.navbar {
     background-color: #0F1642;
     border-radius: 10px;
     padding: 8px;
-    
-    
+
+
 }
-.navbar-icon{
-width: 16px;
-margin-left: 8px;
+
+.navbar-icon {
+    width: 16px;
+    margin-left: 8px;
 }
-.navbar-item{
+
+.navbar-item {
     margin-left: 10px;
     color: white;
 }
 
-.navbar-btn{
+.navbar-btn {
     background-color: #0F1642;
     border: none;
     font-style: normal;
@@ -160,78 +163,220 @@ margin-left: 8px;
     font-size: 14px;
     line-height: 17px;
     /* identical to box height, or 121% */
-    
-    
+
+
     color: #FFFFFF;
-    
+
 }
-.navbar-notification, .navbar-search{
+
+.navbar-notification,
+.navbar-search {
     border: none;
     background-color: #0F1642;
-    margin:0px 8px;
+    margin: 0px 8px;
 }
-.navbar-search{
+
+.navbar-search {
     margin-right: 15px;
 }
 
-.navbar-text{
+.navbar-text {
     font-style: normal;
-font-weight: 300;
-font-size: 11px;
-line-height: 13px;
-color: #FFFFFF;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
 }
 
-.navbar-name{
+.navbar-name {
     font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height, or 121% */
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height, or 121% */
 
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
 }
-.content{
+
+.content {
     margin-top: 30px;
 }
-.content, .content-blok{
+
+.content,
+.content-blok {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.content-link{
+
+.content-link {
     background-color: #2B3253;
     border: none;
-margin:0px 15px;
+    margin: 0px 15px;
     color: white;
     text-decoration: none;
 }
-.content button{
-    
+
+.content button {
+
     background-color: #2B3253;
     border: none;
 
     color: #0F1642;
 }
-.content span{
+
+.content span {
     border: 1px solid #979797;
     width: 2px;
 }
 
-.content button{
+.content button {
     color: white;
 }
-.content-link--active{
+
+.content-link--active {
     font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-color: #7E72F2;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7E72F2;
 }
-.navbar-link{
+
+.navbar-link {
     background-color: #0F1642;
     border: none;
     color: white;
+}
+
+.blok {
+    width: 100%;
+    display: flex;
+
+}
+
+.blok-about {
+    width: 35%;
+    margin-top: 30px;
+    background-color: #0F1642;
+    padding: 20px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 8px;
+}
+
+.blok-content {
+    width: 65%;
+}
+
+.blok-circle {
+
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid white;
+
+
+}
+
+.blok-btn {
+    background-color: #0F1642;
+    border: none;
+    display: flex;
+}
+
+.blok-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.blok-subtitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.blok-btn p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 200% */
+    margin-left: 15px;
+
+    color: #FFFFFF;
+}
+
+.blok-item {
+    margin: 8px 0px;
+}
+
+/* .blok-circle:hover{
+    background-color: #6F64F8;
+    transition: 0.3s;
+} */
+
+.line {
+    margin: 30px 0px;
+}
+
+.blok-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0F1642;
+    border: none;
+    color: white;
+    width: 100%;
+}
+
+.blok-square {
+    width: 14px;
+    height: 14px;
+    border-radius: 2px;
+    border: 1px solid white;
+    color: white;
+}
+
+.blok-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blok-flex p {
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    margin-left: auto;
+    /* or 200% */
+
+
+    color: #FFFFFF;
+}
+
+.blok-cost {}
+
+
+
+
+
+
+
+
+
+
+
+.blok-input{
+    background-color: #0F1642; 
+    border: none;
+    color:#0F1642;
 }
