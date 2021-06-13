@@ -500,3 +500,67 @@ height: 40px;
     padding: 20px;
     padding-top: 30px;
 }
+.sidebar-part, .sidebar-btn, .s-left--button,  .s-right--button{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+
+}
+.sidebar{
+    margin-top: 15px;
+}
+.s-left--button , .s-right--button{
+    border: none;
+}
+
+.s-btn--group{
+    display: flex;
+}
+.sidebar-item{
+    background: #0F1642;
+box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+border-radius: 8px;
+padding: 25px;
+padding-bottom: 0px;
+width: 33%;
+}
+.sidebar-img img{
+    width: 150px;
+}
+
+.sidebar-btn{
+    background: #6F64F8;
+    border-radius: 3px; 
+    color: white;
+    padding: 3px;
+    border: none;
+}
+
+.sidebar-cost{
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
+.s-text{
+    font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+.s-word{
+    font-weight: 300;
+font-size: 12px;
+line-height: 14px;
+color: #FFFFFF;
+}
+
+.sidebar-btn p{
+    margin-right: 10px;
+    margin-top: 2px;
+}
+.sidebar-part{
+    margin-top: 25px;
+}
